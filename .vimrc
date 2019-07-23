@@ -1,3 +1,5 @@
+"ctags -I __THROW --file-scope=yes --langmap=c:+.h --languages=c,c++ --links=yes --c-kinds=+p --fields=+S  -R -f ~/.vim/systags /usr/include /usr/local/include
+
 " 开启语法高亮  
 syntax enable
 
@@ -71,7 +73,7 @@ set expandtab
 " 自动补全括号
 "inoremap ( ()<Esc>i
 "inoremap [ []<Esc>i
-inoremap { {<CR>}<Esc>O
+"inoremap { {<CR>}<Esc>O
 
 " 不兼容vi语法
 set nocp
@@ -86,3 +88,4 @@ function! s:VSetSearch()
     let @s = temp
 endfunction
 
+set tags+=~/.vim/systags
