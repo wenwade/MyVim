@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/usr/share/vim/vim80'
+let g:netrw_dirhist_2='/usr/share/vim/vim80/ftplugin'
+let g:netrw_dirhist_3='/home/wade/project/MyVim/vim/plugin'
+let g:netrw_dirhist_4='/home/wade/project/MyVim/vim'
