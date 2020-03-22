@@ -1,0 +1,29 @@
+" 修改参数
+di,
+ci,
+vi,
+
+" 修改缩进对象
+dii
+cii
+vii
+
+" 修改函数对象
+dif
+cif
+vif
+
+Make
+
+Compile
+
+SignifyDiff
+Diff
+
+<c-p>
+<c-n>
+
+<m-p>
+<m-n>
+
+<c-w>g<c-]>
